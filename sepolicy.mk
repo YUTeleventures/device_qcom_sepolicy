@@ -6,5 +6,4 @@ BOARD_SEPOLICY_DIRS := \
        device/qcom/sepolicy/test \
        device/qcom/sepolicy/$(TARGET_BOARD_PLATFORM)
 
-# Include SSHD Sepolicy	   
--include vendor/sshd/sepolicy/qcom/sepolicy.mk
+-include vendor/yuos/sepolicy/qcom/sepolicy.mk
